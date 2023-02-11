@@ -1,0 +1,266 @@
+@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+ body{
+  margin: 0;
+  padding: 0;
+ }
+ nav{
+  background-color: #065f06;
+  height: 60px;
+}
+.nav-link{
+  color: white;
+}
+.navbar-collapse li{
+  padding: 0 15px;
+}
+ .home-1{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+ }
+.home-text1{
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 180px;
+  color: white;
+  text-shadow: 2px 4px 4px black;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+.home-text2{
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: 390px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 4px 4px rgb(7, 6, 6);
+}
+.home-2{
+  width: 100%;
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(247, 243, 243, 0.795),rgba(236, 234, 234, 0.918));
+}
+.home-text3{
+  margin: 60px 25px;
+  font-weight: bolder;
+  
+}
+.home-3{
+  background-image: linear-gradient(rgba(247, 243, 243, 0.795),rgba(236, 234, 234, 0.918));
+}
+.home-img {
+  margin-left: 170px;
+   margin-top: 5px;
+    margin-bottom: 5px;
+}
+.f-img{
+  width: 300px;
+}
+.tracking-in-expand{animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both}
+
+footer{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+ align-items: center;
+ padding-top: 20px;
+ background-color: #065f06;
+ color: white;
+ 
+}
+
+.vel a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.social a{
+  padding: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.social a:hover{
+  color: rgb(53, 51, 51);
+}
+.vel a:hover{
+  color: rgb(53, 51, 51);
+}
+.gg:hover{
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+ /* request ride */
+
+ .request-ride{
+  display: flex;
+  height: 100%;
+ }
+
+ .p-img{
+  width: 1000px;
+   height: 789px;
+ }
+ .request-ride .log-in{
+  padding: 100px;
+  background-color: black;
+  color: white;
+ }
+ .log-in .input-icons i {
+  position: absolute;
+}
+ .log-in .input-icons {
+  width: 100%;
+  margin-bottom: 10px;  
+}
+ .log-in .icon {
+ padding: 10px;
+ color: #000;
+ }
+ .log-in .input-field {
+ padding: 5px;
+ text-align: center;
+ border-radius: 5px;
+}
+.log-in .log-in-btn{
+  margin: 10px 5px;
+  padding: 5px 15px;
+}
+/* create account */
+
+.create-account{
+ background-size: cover;
+ width: auto;
+ height: 789px;
+}
+form{
+  width: 400px;
+  height: 545px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  margin: 100px 170px;
+}
+ button{
+  background-color: #065f06;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  margin-left: 90px;
+}
+ button:hover{
+  background-color: #038a03;
+  animation: pulse;
+  animation-duration: 2s;
+}
+form label{
+  margin-left: 20px;
+}
+form input{
+  margin-left: 20px;
+  padding: 2px 30px;
+}
+form h1{
+  font-size: 23px;
+  text-align: center;
+}
+form p{
+  font-size: 18px;
+  text-align: center;
+}
+form pre{
+  text-align: center;
+}
+
+
+/* reset password */
+
+.reset-password{
+ background-image: url(/images/holding-map.jpg);
+ background-size: cover;
+ width: auto;
+ height: 789px;
+}
+.password{
+  width: 440px;
+  height: 275px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  margin: 120px 80px;
+ 
+}
+.password h1{
+ text-align: center; 
+ 
+}
+.password p{
+  text-align: center;
+}
+.password label{
+  margin-left: 20px;
+}
+.password input{
+  margin-left: 20px;
+  padding: 5px 30px;
+}
+
+/* driver */
+
+.driver{
+  display: flex;
+}
+.d-img{
+  width: 1000px;
+  height: 789px;
+}
+.driver .about-text{
+  padding: 119px;
+  background-color: black;
+  color: white;
+  height: 789px;    
+}
+.driver-input{
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 50px;
+}
+
+/* about-us */
+
+.about-us{
+  width: 100%;
+  height: 789px;
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  filter: blur(0,1);
+  position: relative;
+}
+.about-text{
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.about-text h3{
+  font-size: 40px;
+}
